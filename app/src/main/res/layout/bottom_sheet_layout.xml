@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottomSheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    app:behavior_hideable="true"
+    app:behavior_peekHeight="56dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/roboto"
+            android:gravity="center_vertical"
+            android:text="Tuesday"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="38 C/ 29 C"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Wednesday"
+            android:textColor="#2A2A2A"
+            android:fontFamily="@font/roboto"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="38 C/ 29 C"
+            android:textColor="#2A2A2A"
+            android:fontFamily="@font/roboto"
+
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Tuesday"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/roboto"
+            android:text="38 C/ 29 C"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Friday"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="38 C/ 29 C"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+    <RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Saturday"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="38 C/ 29 C"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+
+
+<RelativeLayout
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Sunday"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="38 C/ 29 C"
+            android:fontFamily="@font/roboto"
+            android:textColor="#2A2A2A"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+<View
+    android:background="#B8B8B8"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"/>
+
+
+
+</LinearLayout>
